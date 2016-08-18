@@ -61,6 +61,7 @@
     <Compile Include="AssistPaymentsHandler.cs" />
     <Compile Include="AssistPaymentsMiddleware.cs" />
     <Compile Include="AssistPaymentsOptions.cs" />
+    <Compile Include="AssistPaymentsProvider.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="CheckPaymentResultModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
