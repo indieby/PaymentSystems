@@ -35,6 +35,6 @@ namespace payment.systems
         /// </summary>
         public PathString ProcessResult_URL { get; set; }
 
-        public bool IsService { get; protected set; }
+        public bool IsService => AuthorizeRequestFunc != null;
     }
 }

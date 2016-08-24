@@ -14,8 +14,6 @@ namespace payment.systems.assist
 
             this.CheckPaymentStatusUrl = "https://test.paysec.by/orderstate/orderstate.cfm";
 
-            this.IsService = AuthorizeRequestFunc != null;
-
             this.CallbackPath = new PathString("/processassistresult");
 
             this.AuthorizeRequestFunc = AssistPaymentsProvider.GetAuthorizeRequest(options: this);
